@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js page</title>
+
+</head>
+<body>
+
+     <!-- <h1 id="heading1">1</h1>
+     <h1 id="heading2">2</h1>
+     <h1 id="heading2">3</h1>
+     <h1 id="heading2">4</h1>
+     <h1 id="heading2">5</h1> -->
+     <div class="text">
+     <button onclick="gateclose()">Gate Close</button>
+
+     <img src="https://cdn.pixabay.com/photo/2015/06/24/13/03/goal-819975_960_720.png" alt="bulboff" height="600px" width="1300px" id="gate image">
+
+     <button onclick="gateopen()">Gate Open</button>
+
+
+    </div>
+
+    <style>
+
+        .text button{
+
+                height: 50px;
+                color: white;
+                background-color: black;
+                border: 2px solid green;
+                border-radius: 50px;
+        }
+        .text button:hover{
+            cursor: pointer;
+            background-color:red;
+            color: black;
+            /* rotate: 10deg; */
+            transition: all ease .5s;
+            margin-bottom: -10px;
+        }
+        .text{
+            background-color:rgb(139, 139, 225);
+            height: 97vh;
+            width: 90w;
+        }
+
+
+    </style>
+
+
+
+            <script>
+
+
+                function gateopen(){
+
+                    document.getElementById("gate image").src="https://freepngimg.com/thumb/gate/176713-gate-open-png-free-photo.png";
+                }
+
+                function gateclose(){
+
+                    document.getElementById("gate image").src="https://cdn.pixabay.com/photo/2015/06/24/13/03/goal-819975_960_720.png";
+                }
+
+                
+
+
+
+            </script>
+
+        <!-- <script src="./css js/newjs.js"></script> -->
+    
+</body>
+</html>
+
